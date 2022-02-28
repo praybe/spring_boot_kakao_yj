@@ -1,11 +1,7 @@
-
 ### 로그인 화면
-
 <img src="/img/kakaologin1.jpg">
 
-<br/>
 ### 로그인 진행 화면
-
 <img src="/img/kakaologin2.jpg" width="50%">
 
 <br/>

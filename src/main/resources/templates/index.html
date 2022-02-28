@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Kakao Login Test</h1>
+	<span th:if="${userId==null}">
+		<a href="https://kauth.kakao.com/oauth/authorize?client_id=d211e27fda35078191c41904b8ffb4ba&redirect_uri=http://localhost:8282/login&response_type=code">
+			<img src = "image/kakao_logo.png" width="50">
+		</a>
+	</span>
+	<span th:if="${userId!=null}">
+		<form name="logout" action="http://localhost:8282/logout">
+			<input type="submit" value="로그아웃">
+		</form>
+	</span>
+</body>
+</html>
